@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'APodDemo'
+  s.name             = 'APodDemo2'
   s.version          = '0.1.0'
   s.summary          = '用于演示创建Pod的一般步骤'
 
