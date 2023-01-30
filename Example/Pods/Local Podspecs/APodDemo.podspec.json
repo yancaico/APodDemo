@@ -1,0 +1,22 @@
+{
+  "name": "APodDemo",
+  "version": "0.1.0",
+  "summary": "A short description of APodDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/97107724/APodDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "97107724": "zosidev@163.com"
+  },
+  "source": {
+    "git": "https://github.com/97107724/APodDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "APodDemo/Classes/**/*"
+}

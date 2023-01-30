@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'APodDemo'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of APodDemo.'
+  s.summary          = '用于演示创建Pod的一般步骤'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,26 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+总结创建pod 的一般步骤
                        DESC
 
-  s.homepage         = 'https://github.com/97107724/APodDemo'
+  s.homepage         = 'https://github.com/yancaico/APodDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '97107724' => 'zosidev@163.com' }
-  s.source           = { :git => 'https://github.com/97107724/APodDemo.git', :tag => s.version.to_s }
+  s.author           = { 'ryan' => 'zosidev@163.com' }
+  s.source           = { :git => 'https://github.com/yancaico/APodDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'APodDemo/Classes/**/*'
+  s.source_files = 'APodDemo/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'APodDemo' => ['APodDemo/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'APodDemo/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
 end
